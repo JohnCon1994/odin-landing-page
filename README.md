@@ -1,0 +1,1 @@
+Here is the start of my Odin Project Landing Page. I'll update this as I progress through it about what i struggled with and how I fixed it. I'll also post any credits i need to for images.
