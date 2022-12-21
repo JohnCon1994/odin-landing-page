@@ -88,18 +88,35 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #1F2937;
 }
 
 .one-header {
     color: #1F2937;
     font-size: 30px;
-    margin-top: 35px;
+    margin: 40px;
 }
 
 .boxes {
     display: flex;
-    border: 8px;
-    border: #3882F6;
+    margin-bottom: 75px;
+    margin-right: 100px;
+    margin-left: 100px;
+    gap: 40px;
+}
+
+.box {
+    display: flex;
+    border: 3px solid #3882F6;
+    background-color: transparent;
+    border-radius: 16px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.box-text {
+    max-width: 150px;
 }
 
 .info-two {
@@ -116,12 +133,4 @@ a {
 .three-box {
     background-color: #3882F6;
     color: #F9FAF8;
-}
-
-.box {
-    display: flex;
-    border: #3882F6;
-    width: 50px;
-    height: 50px;
-    border: 5px;
 }
