@@ -11,24 +11,95 @@ body {
     display: flex;
     color: #F9FAF8;
     background-color: #1F2937;
-    flex: 1;
+    flex-direction: column;
+}
+
+.logo-links {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: -25px;
+}
+
+.logo {
+    font-size: 13px;
+    font-weight: 1000;
 }
 
 ul {
    list-style: none;
    display: flex;
-   flex: 1;
+   margin: 10px;
+   font-size: 12px;
+   gap: 16px;
 }
 
 a {
     color: #F9FAF8;
     text-decoration: none;
+}
+
+.header-text {
     display: flex;
+    justify-content: space-between;
+    margin: 100px;
     flex: 1;
+}
+
+.h-text-claim {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.claim {
+    max-width: 250px;
+    margin-bottom: 0px;
+    font-weight: 1000;
+}
+
+.claim-subtext {
+    max-width: 325px;
+    margin: 0px;
+}
+
+.button-1 {
+    max-width: 100px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-weight: 1000;
+}
+
+.pic {
+    display: flex;
+    background-color: #F9FAF870;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.info-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .one-header {
     color: #1F2937;
+    font-size: 30px;
+    margin-top: 35px;
+}
+
+.boxes {
+    display: flex;
+    border: 8px;
+    border: #3882F6;
 }
 
 .info-two {
